@@ -12,10 +12,10 @@ SCRIPT_DIR=`dirname "$SCRIPT_PATH"`
 #echo "SCRIPT_DIR = $SCRIPT_DIR"
 
 # Set the Common Bin Dir
-COMMON_BIN=${SCRIPT_DIR}/../../common/bin
+COMMON_BIN=${SCRIPT_DIR}/../_common/bin
 
 # Set the Common Scripts Dir
-COMMON_SCRIPTS=${SCRIPT_DIR}/../../common/scripts
+COMMON_SCRIPTS=${SCRIPT_DIR}/../_common/scripts
 
 # Set the Environment
 source ${COMMON_SCRIPTS}/set_env.sh
