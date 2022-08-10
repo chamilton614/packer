@@ -1,4 +1,4 @@
-# VSphere
+# vSphere
 This directory contains the Operating Systems that are created using Packer into VMWare vSphere/vCenter VM Templates using the vsphere-iso Virtualization Provider specified in the Packer build file.
 
 ## RHEL8
