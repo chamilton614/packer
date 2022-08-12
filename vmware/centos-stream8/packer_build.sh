@@ -6,6 +6,12 @@ clear
 # Export the variables to make them available to scripts
 set -a
 
+# Check if vCenter Username was passed in
+PKR_VAR_vsphere_username=$1
+
+# Check if vCenter Password was passed in
+PKR_VAR_vsphere_password=$2
+
 # Set the Script Dir
 SCRIPT_PATH=`readlink -f "$0"`
 SCRIPT_DIR=`dirname "$SCRIPT_PATH"`
